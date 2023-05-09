@@ -2,8 +2,7 @@
 # В исходном списке минимум 2 элемента.
 
 def modification(lst):
-    my_list = [1, 'хай', [1, 2, 3], 77, 10001]
-    my_list[0], my_list[-1] = my_list[-1], my_list[0]
+    lst[0], lst[-1] = lst[-1], lst[0]
     return lst
 
 
